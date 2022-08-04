@@ -1,0 +1,24 @@
+.fullModal {
+  text-align: center;
+  color: #014271;
+}
+button {
+  width: 100%;
+  margin-top: 7500px;
+  padding: 7px;
+  background-color: rgb(255, 255, 255);
+  color: #013458;
+  font-weight: 600;
+  border: 2px solid #013256;
+}
+.LangModalTitle {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  justify-content: space-between;
+}
+.LangModalTitle Button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 25px;
+}

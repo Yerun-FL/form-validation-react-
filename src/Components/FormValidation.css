@@ -1,0 +1,81 @@
+.icon-Location {
+  display: flex;
+}
+.btn-submit {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.inputerror {
+  border: 2px solid rgb(255, 1, 1) !important;
+  border-radius: 7px;
+}
+.hello {
+  outline: none;
+}
+.loader {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+}
+.successPage {
+  text-align: center;
+  font-weight: 900;
+  font-size: 35px;
+  padding-top: 100px;
+}
+
+.success-btn {
+  font-size: 20px;
+  background-color: #014271;
+  color: white;
+  border-radius: 10px;
+}
+
+.language-container {
+  display: flex;
+  gap: 15px;
+}
+
+.sub-Language {
+  background-color: rgba(2, 102, 163, 0.719);
+  padding: 2px;
+  font-size: 13px;
+  width: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #011f35;
+  display: flex;
+  align-items: center;
+}
+.cross-btn {
+  background-color: transparent;
+  border: none;
+}
+.File-upload {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+/* button:focus, */
+/* button:active, */
+/* button:hover, */
+label:focus,
+/* .btn:active, */
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+/* @media screen and (max-width: 213px) {
+  .resumeInput {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+} */
